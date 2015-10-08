@@ -20,8 +20,8 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fork this repository and fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: Zobrazovanie najbližších reštaurácií podľa preferencií (Pizza, Steak,..).Filtrovanie podľa blízkosti k jazeru, dialnici (aby sme vyberali podľa geo dát). Zobrazenie aktuálnej polohy užívaľa cez GPS. Veľkosť značky na mape bude daná hodnotením reštaurácie cez externú službu (napr. Zomato).
 
-**Data source**: `<fill in>`
+**Data source**: [Open Street Maps](https://www.openstreetmap.org/export#map=14/48.1479/17.1318)
 
-**Technologies used**: `<fill in>`
+**Technologies used**: Android v jazyku Java, C# webapi backend, kt. vracia geojson, podkladová mapa cez [mapbox](http://mapbox.com) na PostGIS serveri.
